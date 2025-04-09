@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav a::after {
+    content: "•";
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav a:last-child::after {
+    content: ""; /* Remove the bar after the last link */
+}
+
+.stickers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.sticker {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.verificar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.password {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.ingresar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
